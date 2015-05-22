@@ -1,0 +1,290 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>FruitNinja - iOS 8 Swift + SpriteKit Game</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="Hybera LLC">
+	<meta name="copyright" content="Hybera LLC">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2015-04-06T08:09:28+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-fruitninja">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#requiremets_and_installarion" title="Requiremets and Installarion">Requiremets and Installarion</a></li>
+			<li><a href="#fruit_frequency" title="Fruit Frequency">Fruit Frequency</a></li>
+			<li><a href="#blade_adjustment" title="Blade Adjustment ">Blade Adjustment </a></li>
+			<li><a href="#graphics_replacement" title="Graphics Replacement ">Graphics Replacement </a></li>
+			<li><a href="#music_replacement" title="Music Replacement">Music Replacement</a></li>
+			<li><a href="#icons_and_splash_screens" title="Icons and Splash Screens">Icons and Splash Screens</a></li>
+			<li><a href="#ad_networks" title="Ad Networks">Ad Networks</a></li>
+			<li><a href="#in_app_purchases" title="In-App Purchases">In-App Purchases</a></li>
+			<li><a href="#game_center" title="Game Center">Game Center</a></li>
+			<li><a href="#faq" title="FAQ">FAQ</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Hybera LLC 2015<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>FruitNinja</h1>
+	<h2>iOS 8 Swift + SpriteKit Game</h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	
+	
+	<li>by: Hybera LLC</li>
+	<li><a href=""></a></li>
+	<li>email: <a href="mailto:&#116;&#111;&#100;&#111;&#114;&#111;&#118;&#46;&#118;&#103;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#116;&#111;&#100;&#111;&#114;&#111;&#118;&#46;&#118;&#103;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p></p>
+	</section>
+	
+	<section id="requiremets_and_installarion">
+	<div class="page-header"><h3>Requiremets and Installarion</h3><hr class="notop"></div>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<b>Requirements:&nbsp;</b></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	1. OSX</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	2. Xcode 6+</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">After downloading the zip double click to unzip it and open the fold. Inside you will find the .xcodeproj. Run it and the game will start.</span></p>
+<div>
+	<img alt="" src="assets/images/image_12.png"></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); line-height: 18px;">Select iOS simulator and click the arrow pointing to right. After a few seconds you should see the game running on the simulator.&nbsp;</span></div>
+<div>
+	<span style="font-family: inherit; font-style: inherit; font-weight: 700; color: rgb(56, 56, 56); line-height: 1.5em;">For custom orders you can go to our official page:&nbsp;</span><a href="http://hybera.com/" style="font-family: inherit; font-style: inherit; line-height: 1.5em; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;">http://hybera.com</a><span style="font-family: inherit; font-style: inherit; font-weight: 700; color: rgb(56, 56, 56); line-height: 1.5em;">&nbsp;or email me at &#116;&#111;&#100;&#111;&#114;&#111;&#118;&#46;&#118;&#103;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</span></div>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">We are making special offers and some cool discounts every week. If you want to subscribe please send me email with text &quot;I want to get special offers every week &quot;</span></p>
+</section>
+<section id="fruit_frequency">
+	<div class="page-header"><h3>Fruit Frequency</h3><hr class="notop"></div>
+<p>
+	Everything in this game is made to be simple and elegant to change: If you want to change the frequency of the fruits as well as the levels you can simply open the settings.swift from the left sidebar of Xcode. Inside at the top you will see this:&nbsp;</p>
+<p>
+	<img alt="" src="assets/images/image_5.png"></p>
+<p>
+	You can adjust from here depending on which level you are how many fruits to throw. Of course the user will not be able to see the level number but the fruits will increase depending his score. It is recommented not to exceed 10 fruits ! The second part is to adjust the levels. If the user scores more then 4 then it will move to the next level and so on. It is that simple to adjust the fruits. Later on we will see how to change the graphics.</p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="blade_adjustment">
+	<div class="page-header"><h3>Blade Adjustment </h3><hr class="notop"></div>
+<p>
+	You can adjust the thickness of the blade. To do that again we need to go to Settings.swift</p>
+<p>
+	<img alt="" src="assets/images/image_10.png"></p>
+<p>
+	&nbsp;</p>
+<p>
+	At the top you can see that you can change two values. The first one is the scale of the blade as you go lower the blade will go smaller and the opposite. You MUST know that if you are going to make the blade smaller you MUST change the blade radius as well.&nbsp;</p>
+</section>
+<section id="graphics_replacement">
+	<div class="page-header"><h3>Graphics Replacement </h3><hr class="notop"></div>
+<p>
+	Finally at this point where you can reskin the game. There are two options of reskinning. The preffered one is to open the folder that containts all the graphics and just replace the images with yours and of course with the same name and extension. Other method is to drag and drop the new images into the project and open the settings.swift at the very bottom you will see the strings of the images:&nbsp;</p>
+<p>
+	<img alt="" src="assets/images/image_11.png"></p>
+<p>
+	From here you can adjust the font name and the graphics for the fruits and the bomb. Each fruit consist of image of the full fruit and two images for the sliced fruit left/right part. Replace the strings with the one that you justed drag and drop and run the game. It is that simple yes :)&nbsp;</p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="music_replacement">
+	<div class="page-header"><h3>Music Replacement</h3><hr class="notop"></div>
+<p>
+	The best way to change the music is to open the folder that have all the sounds:&nbsp;</p>
+<p>
+	<img alt="" src="assets/images/image_4.png"></p>
+<p>
+	and start replacing the sounds with yours. Make sure they have the same name and extension. IT IS REQUIRED TO CHANGE THE MUSIC SINCE THESE ARE THE ORIGINALS SOUNDS OF FRUIT NINJA AND YOU DON&#39;T WANT TO HAVE DEAL WITH HALF BRICKS</p>
+</section>
+<section id="icons_and_splash_screens">
+	<div class="page-header"><h3>Icons and Splash Screens</h3><hr class="notop"></div>
+<p>
+	Select the project from Xcode:</p>
+<p>
+	<img alt="" src="assets/images/image_6.png"></p>
+<p>
+	&nbsp;</p>
+<p>
+	Go to general tab:</p>
+<p>
+	<img alt="" src="assets/images/image_7.png"></p>
+<p>
+	Scroll Down until you see this:&nbsp;</p>
+<p>
+	<img alt="" src="assets/images/image_3.png"></p>
+<p>
+	Click on the small arrow next to AppIcon and you must see this:&nbsp;</p>
+<p>
+	<img alt="" src="assets/images/image_1.png"></p>
+<p>
+	&nbsp;</p>
+<p>
+	You must change all &nbsp;the icons from here.&nbsp;<b style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; line-height: 18px;">You can drag and drop icons from your desctop directly to the icon boxes. REMEMBER !!!!! that the sizes is in pt. for example the first icon is 29pt BUT there are 3 cions there. This is because you need to multiply the 29pt and the preffix 1x 2x 3x to get the pixels. For example the first icon is 29pt * 1x = 29px the second one is 29pt * 2x = 58px and so on for the others.&nbsp;</b></p>
+<p>
+	&nbsp;</p>
+<p>
+	<b style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; line-height: 18px;">The same goes for the splash screens</b></p>
+</section>
+<section id="ad_networks">
+	<div class="page-header"><h3>Ad Networks</h3><hr class="notop"></div>
+<p>
+	The game supports:&nbsp;</p>
+<p>
+	- iAD</p>
+<p>
+	- RevMob</p>
+<p>
+	- Chartboost</p>
+<p>
+	- AdMob</p>
+<p>
+	&nbsp;</p>
+<p>
+	All of the ids you can change from Settings.swift</p>
+<p>
+	<img alt="" src="assets/images/image_9.png"></p>
+<p>
+	&nbsp;</p>
+<p>
+	YOU MUST CHANGE IT OTHERWISE THE ADS AND BANNERS MAY NOT WORK !&nbsp;</p>
+</section>
+<section id="in_app_purchases">
+	<div class="page-header"><h3>In-App Purchases</h3><hr class="notop"></div>
+<p>
+	Again from Settings.swift you can set the in-app id;&nbsp;</p>
+<p>
+	<img alt="" src="assets/images/image_8.png"></p>
+<p>
+	&nbsp;</p>
+<p>
+	IT IS REALLY IMPORTANT TO READ THAT PART !&nbsp;</p>
+<p>
+	QUESTION: IN-APP DOESNT WORK IT SAYS &quot;COMING SOON&quot; THIS MESSAGE IS SET TO SHOW IF YOUR IN-APP IS NOT CONNECTED PROPERLY. DOUBLE CHECK YOUR BUNDLE ID AND PROVISIONNING PROFILES. ALSO WHEN YOU SUBMIT THE APP WITH THE IN-APP PURCHASES YOU MUST KNOW THAT APPLE REVIEW FOR THE IN-APP TAKES LONGER THEN THE APP REVIEW. THIS IS THE REASON WHY THIS POP UP IS IMPLEMENT IT TO INDICATE TO THE PLAYERS THAT THE IN-APP IS COMING SOON OTHERWISE IT WILL CRASH THE GAME IF THERE IS NO POP UP !</p>
+</section>
+<section id="game_center">
+	<div class="page-header"><h3>Game Center</h3><hr class="notop"></div>
+<p>
+	Game Center is simple as in-app just open the Settings.swift</p>
+<p>
+	<img alt="" src="assets/images/image_2.png"></p>
+<p>
+	&nbsp;</p>
+<p>
+	You need a leaderboard id which you can make from iTunes Connect.&nbsp;</p>
+</section>
+<section id="faq">
+	<div class="page-header"><h3>FAQ</h3><hr class="notop"></div>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<b>Question:&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">I have changed the project name and now have TONS of errors. Please advise......&nbsp;</span></b></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<b>Answer:&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">Do not change the project name ! If you want to change the name of the game you need to change the bundle display name which you can find under section Change Game Name.</span></b></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Question: Is it easy to reskin ?&nbsp;</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Answer: YES</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Question: I am getting errors when submiting to App store:&nbsp;</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(85, 85, 85); line-height: 24px; background-color: rgb(245, 245, 245);">Invalid image path &ndash; No image at the path referenced under key &acute;CFBundleIcons&acute;: &Aacute;ppIcon120&times;120&acute;</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Answer: Please see the Changing Game Icon section to understand how to set correctly the icons.&nbsp;</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Question: Do you offer re-skin</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<b>Answer: Yes, We Do send us email and we will give you a quote</b></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<b>Question: Can I upload the game with regular license</b></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<b>Answer: Yes you can</b></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Question I want to subscribe to get every week a special offers and discounts. How to do that.&nbsp;</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Answer: Send email to &#116;&#111;&#100;&#111;&#114;&#111;&#118;&#46;&#118;&#103;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109; containing the text &quot;I want to get special offers every week&quot;</span></p>
+</section>
+
+	</div>
+</body>
+</html>
